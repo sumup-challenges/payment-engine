@@ -143,7 +143,7 @@ Like a `dispute` and a `resolve` a `chargeback` refers to the transaction by ID 
 
 ## Submission
 
-When you are ready to share your submission, please email [zeynep.ganz@sumup.com](zeynep.ganz@sumup.com) with [austin.tindle@sumup.com] Cc’d and include a link to a public git repository containing your solution. Unless communicated otherwise, submissions can be in whatever language you choose, **but you must include clear instructions on how to build/run your program**. 
+When you are ready to share your submission, please email [us-engineering@sumup.com](us-engineering@sumup.com) with [austin.tindle@sumup.com] Cc’d and include a link to a public git repository containing your solution. Unless communicated otherwise, submissions can be in whatever language you choose, **but you must include clear instructions on how to build/run your program**. 
 
 ## Assumptions
 
