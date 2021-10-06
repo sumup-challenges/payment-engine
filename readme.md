@@ -105,7 +105,7 @@ funds should not change.
 
 ### Dispute
 
-A `dispute` represents a client’s claim that a transaction was erroneous and should be reverse. The transaction shouldn’t be reversed yet but the associated funds should be held. This means that the clients available funds should decrease by the amount disputed, their held funds should increase by the amount disputed, while their total funds should remain the same.
+A `dispute` represents a client’s claim that a transaction was erroneous and should be reversed. The transaction shouldn’t be reversed yet but the associated funds should be held. This means that the clients available funds should decrease by the amount disputed, their held funds should increase by the amount disputed, while their total funds should remain the same.
 
 A `dispute` looks like:
 
@@ -130,7 +130,7 @@ Like `dispute`s, `resolve`s do not specify an amount. Instead they refer to a tr
 
 ### Chargeback
 
-A `chargeback` is the final state of a dispute and represents the client reversing a transaction. Funds that were held have now been withdrawn. This means that the clients held funds and total funds should decrease by the amount previously disputed. If a `chargeback` occurs the client’s account should be immediately frozen.
+A `chargeback` is the final state of a dispute and represents the client reversing a transaction. Funds that were held have now been withdrawn. This means that the clients held funds and total funds should decrease by the amount previously disputed. If a `chargeback` occurs the client’s account should be immediately locked.
 
 A `chargeback` looks like:
 
